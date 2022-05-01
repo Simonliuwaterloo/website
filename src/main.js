@@ -6,6 +6,7 @@ import VueRouter from 'vue-router'
 import Home from './components/Home.vue'
 import Skills from './components/Skills.vue'
 import Experience from './components/Experience.vue'
+import Gallery from './components/Gallery.vue'
 
 Vue.config.productionTip = false
 
@@ -18,7 +19,7 @@ const routes = [
     { path: '/home', name: 'home', component: Home },
     { path: '/skills', name: 'skills', component: Skills },
     { path: '/experience', name: 'experience', component: Experience },
-
+    { path: '/gallery', name: 'gallery', component: Gallery },
 ];
 
 const router = new VueRouter({ routes });

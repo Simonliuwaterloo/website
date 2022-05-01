@@ -7,6 +7,7 @@
         <v-tab to="/home">Home</v-tab>
         <v-tab to="/skills">Skills</v-tab>
         <v-tab to="/experience">Experience</v-tab>
+        <v-tab to="/gallery">Gallery</v-tab>
       </v-tabs>
             <v-spacer></v-spacer>
 
@@ -17,17 +18,14 @@
 </template>
 
 <script>
-// import AppNavigation from '@/components/AppNavigation';
 
 export default {
   name: 'App',
 
   components: {
-    // AppNavigation
   },
 
   data: () => ({
-    //
   }),
 };
 </script>

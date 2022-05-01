@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <v-row style="height: 20px"> </v-row>
-
+  <div class="ma-4">
     <div v-for="(sec, name) in this.skills" :key="name">
       <v-sheet class="mx-auto" elevation="8" max-width="800">
         <div class="text-center">

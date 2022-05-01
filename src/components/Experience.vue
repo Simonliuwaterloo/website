@@ -1,10 +1,9 @@
 <template>
-  <div id="expeience">
-    <v-row style="height: 20px"> </v-row>
+  <div id="expeience" class="ma-4">
     <v-card
       color="#e1f4f3"
-      class="ma-4"
       v-for="(job, ind) in this.jobs"
+      class="ma-4"
       :key="ind"
     >
       <v-list-item>
@@ -28,6 +27,20 @@ export default {
   name: "Experience",
   data: () => ({
     jobs: [
+      {
+        company: "Wish",
+        position: "Software Engineer ",
+        time: "January 2022 – April 2022",
+        img: require("@/assets/images/wish.png"),
+        responsibilities: [
+          "Worked on Entity Resolution team and discovered more than 100k merchant entities",
+          "Developed microservices using Python, GraphQL, and MongoDB under timing constraints",
+          "Designed and implemented gRPC APIs to help more than 2k Wish merchants link their accounts",
+          "Created an internal tool using Cytoscape.js and React to visualize merchant fraud graph",
+          "Built Business Intelligence dashboards to monitor KPIs using Apache Superset and SQL",
+          "Created Grafana dashboards to monitor microservice metrics, such as latency and failure reasons",
+        ],
+      },
       {
         company: "ActiveState Software Inc.",
         position: "Developer",
